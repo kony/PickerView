@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="PickerView" id="PickerView">
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmPickerView" displayname="Form">
+        <component type="pickerview" id="pickOne" displayname="PickerView">
+            <attributes value="1" platform="spa" name="customPicker" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmPickerView" displayname="Form">
+        <component type="pickerview" id="pickOne" displayname="PickerView">
+            <attributes value="1" platform="spa" name="customPicker" datatype="string"/>
+        </component>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>
