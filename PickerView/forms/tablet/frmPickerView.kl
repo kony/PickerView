@@ -465,6 +465,7 @@
         </onDestroy>
         <bbMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</bbMenuPosition>
         <androidMenuPosition>FORM_MENU_POSITION_AFTER_APPMENU</androidMenuPosition>
+        <iphone_bounces>true</iphone_bounces>
         <iphone_inputaccessoryviewtype>default</iphone_inputaccessoryviewtype>
         <iphoneMenuRenderer>true</iphoneMenuRenderer>
         <iphone_transDirection>0</iphone_transDirection>
@@ -530,6 +531,7 @@
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
         <iphone_headerOverlap>false</iphone_headerOverlap>
+        <ipad_bounces>true</ipad_bounces>
         <ipad_inputaccessoryviewtype>default</ipad_inputaccessoryviewtype>
         <ipad_footer_overlap>0</ipad_footer_overlap>
         <ipad_footerOverlap>false</ipad_footerOverlap>
@@ -660,6 +662,12 @@
                 <seqname></seqname>
             </evtSequence>
         </android_onDeviceMenu>
+        <android_onActionBarBack>
+            <evtSequence>
+                <enabled>true</enabled>
+                <seqname></seqname>
+            </evtSequence>
+        </android_onActionBarBack>
         <palmpreTitleBarData>
             <imagePath></imagePath>
             <imgEvtData>
@@ -689,6 +697,9 @@
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
+        <android_showActionBar>true</android_showActionBar>
+        <android_showActionBarIcon>true</android_showActionBarIcon>
+        <android_actionBarIcon></android_actionBarIcon>
         <tc_titlebar>true</tc_titlebar>
         <tcHtml5CaptureGPS>false</tcHtml5CaptureGPS>
         <tc_securedata>false</tc_securedata>
@@ -1535,11 +1546,11 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>50</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <left>10</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -1593,13 +1604,13 @@
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
+                        <left>2</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -1802,11 +1813,11 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>30</left>
+                        <left>2</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -1860,13 +1871,13 @@
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
+                        <left>6</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -2181,10 +2192,10 @@
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
                         <left>10</left>
-                        <right>0</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <right>7</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -2238,13 +2249,13 @@
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
+                        <left>3</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -2447,11 +2458,11 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>10</left>
+                        <left>0</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -2505,13 +2516,13 @@
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
+                        <left>3</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -2826,10 +2837,10 @@
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
                         <left>0</left>
-                        <right>50</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
-                        <unit>px</unit>
+                        <right>20</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -2883,13 +2894,13 @@
                     </symbian>
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
-                        <left>0</left>
+                        <left>5</left>
                         <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -3092,11 +3103,11 @@
                     </desktop_web>
                     <desktop_web_override>false</desktop_web_override>
                     <ipad>
-                        <left>0</left>
-                        <right>10</right>
+                        <left>2</left>
+                        <right>0</right>
                         <top>0</top>
                         <bottom>0</bottom>
-                        <unit>px</unit>
+                        <unit>%</unit>
                     </ipad>
                     <ipad_override>true</ipad_override>
                     <iphonerc>
@@ -3151,12 +3162,12 @@
                     <symbian_override>true</symbian_override>
                     <tabRCAndroid>
                         <left>0</left>
-                        <right>0</right>
+                        <right>7</right>
                         <top>0</top>
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -4816,7 +4827,7 @@
                     <width>100</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>sknPickerViewSampleApp</skinId>
+                <skinId>sknPckrWhiteBG</skinId>
                 <symbian_titleText>Please Select</symbian_titleText>
                 <tooltip></tooltip>
                 <visible>true</visible>
@@ -7495,6 +7506,7 @@
                 <seqname></seqname>
             </evtSequence>
         </bb10_onEscape10_root>
+        <bb10_softkeyMode>FORM_ADJUST_RESIZE</bb10_softkeyMode>
     </children>
     <children xsi:type="kMenuContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <ID></ID>
