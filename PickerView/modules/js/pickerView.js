@@ -13,7 +13,6 @@ function pickerviewselkeyvalues(){
 	}else
 		alert("no data selected");
 }
-
 /******************************************************************
 *	Name    : setNewData
 *	Author  : Kony
