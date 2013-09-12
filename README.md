@@ -11,8 +11,10 @@ This Application will showcase the following features of Picker view
 * Setting Component Data 
 
 # Supported platforms:
-* iPhone
-* iPad
-* Android
-* Android tablet
+**Mobile**
+ * Android
+ * iPhone
 
+**Tablet** 
+ * Anroid
+ * iPad
