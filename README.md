@@ -16,5 +16,5 @@ This Application will showcase the following features of Picker view
  * iPhone
 
 **Tablet** 
- * Anroid
+ * Android
  * iPad
