@@ -14,7 +14,10 @@ This Application will showcase the following features of Picker view
 **Mobile**
  * Android
  * iPhone
+ * Windows 7.5
+ * Windows 8
 
 **Tablet** 
  * Android
  * iPad
+
