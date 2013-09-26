@@ -13,6 +13,7 @@ This Application will showcase the following features of Picker view
 # Supported platforms:
 **Mobile**
  * Android
+ * BlackBerry
  * iPhone
  * Windows 7.5
  * Windows 8
