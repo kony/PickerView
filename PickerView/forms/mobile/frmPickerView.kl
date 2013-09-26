@@ -498,8 +498,8 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>0</leftSideView>
-            <leftTitle></leftTitle>
+            <leftSideView>1</leftSideView>
+            <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -608,7 +608,7 @@
         <bb_orientation>0</bb_orientation>
         <blackberry_no_of_items>0</blackberry_no_of_items>
         <bb_titleskinId>Skin Defaults</bb_titleskinId>
-        <bbTitlebar>true</bbTitlebar>
+        <bbTitlebar>false</bbTitlebar>
         <BBSkinAroundPopup>Skin Defaults</BBSkinAroundPopup>
         <autofocus>true</autofocus>
         <j2me_undockappfooter>false</j2me_undockappfooter>
@@ -3456,7 +3456,7 @@
                 <bb>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
+                    <top>3</top>
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
@@ -3468,7 +3468,7 @@
                     <unit>%</unit>
                 </bb10>
                 <bb10_override>false</bb10_override>
-                <bb_override>false</bb_override>
+                <bb_override>true</bb_override>
                 <default_override>true</default_override>
                 <defaults>
                     <left>0</left>
@@ -5532,10 +5532,10 @@
                 <mixed_iphone>false</mixed_iphone>
                 <rc_android>true</rc_android>
                 <rc_android_tab>true</rc_android_tab>
-                <rc_blackberry>true</rc_blackberry>
+                <rc_blackberry>false</rc_blackberry>
                 <rc_blackberry10>false</rc_blackberry10>
                 <rc_ipad>true</rc_ipad>
-                <rc_iphone>true</rc_iphone>
+                <rc_iphone>false</rc_iphone>
                 <rc_j2me>false</rc_j2me>
                 <rc_palm>false</rc_palm>
                 <rc_symbian>false</rc_symbian>
@@ -8212,7 +8212,7 @@
                         <unit>%</unit>
                     </bb10>
                     <bb10_override>false</bb10_override>
-                    <bb_override>false</bb_override>
+                    <bb_override>true</bb_override>
                     <default_override>true</default_override>
                     <defaults>
                         <left>4</left>

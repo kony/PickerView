@@ -93,7 +93,7 @@
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
-    <attributes name="splashlogokey" value="0=splash.png,1=,8=splash.9.png,2=,3=,42=,16=splashtab.png,18=splashtab.png,43=splashtab.png,1000=,1001=,1002=,31=splashtab.png,32=splashtab.png,45=splashtab.png,22=,23=,24=,35=,44=,36=,21=,37="/>
+    <attributes name="splashlogokey" value="0=splash.png,8=splash.9.png,16=splashtab.png,18=splashtab.png,43=splashtab.png,31=splashtab.png,32=splashtab.png,45=splashtab.png"/>
     <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
