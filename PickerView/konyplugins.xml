@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <plugins>
-    <pluginInfo version-no="5.5.24.QA_v201309231046" plugin-id="com.pat.tool.keditor.KEditorPlugin" plugin-name="Kony Studio"/>
-    <pluginInfo version-no="5.5.8.QA_v201309231027" plugin-name="Third Party Jars Plug-in"/>
-    <pluginInfo version-no="5.5.0.beta_v201308311959" plugin-id="com.pat.soapui.SoapUIPlugin" plugin-name="Soap UI Plugin"/>
-    <pluginInfo version-no="5.5.18.QA_v201309211325_r2" plugin-name="Kony Codegenerator"/>
-    <pluginInfo version-no="5.5.3.QA_v201309162038" plugin-id="com.kony.help.Activator" plugin-name="KonyHelp Plug-in"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312133" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" plugin-name="Nativecodegen"/>
-    <pluginInfo version-no="5.5.0.beta_v201309010039" plugin-name="Kony Studio Licensing"/>
-    <pluginInfo version-no="5.5.6.QA_v201309251133" plugin-id="com.kony.cloudmiddleware.Activator" plugin-name="CloudMiddlewarePlugin"/>
-    <pluginInfo version-no="5.5.6.QA_v201309251133" plugin-id="com.kony.cloudthirdparty.Activator" plugin-name="CloudThirdPartyPlugin"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.core.LuaCorePlugin" plugin-name="Lua Core"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.ui.baseExts.BaseExtsPlugin" plugin-name="Lua BaseExts"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.ui.LDTUIPlugin" plugin-name="Lua UI"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-name="Lua  win32"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-name="Lua Documentation"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-name="Lua Logger"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.kepler.ldt.laucher.LauncherPlugin" plugin-name="Lua Debug Launcher"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.core.LuaDebuggerPlugin" plugin-name="Lua Debug Core"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.ui.LuaDebugUIPlugin" plugin-name="Lua Debug UI"/>
-    <pluginInfo version-no="5.5.17.QA_v201309231631" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
-    <pluginInfo version-no="5.5.8.QA_v201309241205" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
-    <pluginInfo version-no="5.5.3.QA_v201309181647" plugin-id="com.pat.winmobile.WinMobilePlugin" plugin-name="Winmobile Plug-in"/>
-    <pluginInfo version-no="5.5.4.QA_v201309181628" plugin-id="com.kony.windows.WindowsPhone8Plugin" plugin-name="Windows Phone 8 Plug-in"/>
-    <pluginInfo version-no="5.5.4.QA_v201309181541" plugin-id="com.kony.windows.Windows8Plugin" plugin-name="Windows 8 Plug-in"/>
-    <pluginInfo version-no="5.5.17.QA_v201309231435" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
-    <pluginInfo version-no="5.5.9.QA_v201309241152_r3" plugin-id="thinclientplugin.Activator" plugin-name="ThinClient"/>
-    <pluginInfo version-no="5.5.3.QA_v201309181642" plugin-id="com.kony.windows.WinDesktopPlugin" plugin-name="Windows Desktop Plug-in"/>
-    <pluginInfo version-no="5.5.11.QA_v201309181237_r2" plugin-name="SPA"/>
-    <pluginInfo version-no="5.5.11.QA_v201309181139_r2" plugin-name="Desktop Web"/>
-    <pluginInfo version-no="5.5.4.GA_v201309162142" plugin-id="com.kony.sync.ide.SyncPlugin" plugin-name="Kony Sync"/>
-    <pluginInfo version-no="5.5.3.QA_v201309241141_r1" plugin-id="com.kony.web.Activator" plugin-name="Kony Web Commons"/>
-    <pluginInfo version-no="5.5.13.QA_v201309191426" plugin-id="iosplugin.Activator" plugin-name="iOS Plugin"/>
+    <pluginInfo plugin-name="Kony Studio" plugin-id="com.pat.tool.keditor.KEditorPlugin" version-no="5.5.2.GA_v201402061656"/>
+    <pluginInfo plugin-name="Third Party Jars Plug-in" version-no="5.5.2.GA_v201402061916"/>
+    <pluginInfo plugin-name="Soap UI Plugin" plugin-id="com.pat.soapui.SoapUIPlugin" version-no="5.5.2.GA_v201402061859"/>
+    <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.2.GA_v201402061932"/>
+    <pluginInfo plugin-name="KonyHelp Plug-in" plugin-id="com.kony.help.Activator" version-no="5.5.2.GA_v201402062135"/>
+    <pluginInfo plugin-name="Nativecodegen" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" version-no="5.5.2.GA_v201402061941"/>
+    <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.2.GA_v201402061803"/>
+    <pluginInfo plugin-name="CloudMiddlewarePlugin" plugin-id="com.kony.cloudmiddleware.Activator" version-no="5.5.2.GA_v201402071739"/>
+    <pluginInfo plugin-name="CloudThirdPartyPlugin" plugin-id="com.kony.cloudthirdparty.Activator" version-no="5.5.2.GA_v201402071739"/>
+    <pluginInfo plugin-name="Visualizer Integration Plugin" plugin-id="com.viz.ide.VisualiserIDEPlugin" version-no="5.5.2.GA_v201402071722"/>
+    <pluginInfo plugin-name="Tablet Android" plugin-id="com.pat.android.Activator" version-no="5.5.2.GA_v201402061713"/>
+    <pluginInfo plugin-name="Blackberry &amp; J2ME" plugin-id="com.pat.j2me.J2MEPlugin" version-no="5.5.2.GA_v201402061919"/>
+    <pluginInfo plugin-name="Blackberry 10" plugin-id="com.kony.bb10.BB10Plugin" version-no="5.5.2.GA"/>
+    <pluginInfo plugin-name="Winmobile Plug-in" plugin-id="com.pat.winmobile.WinMobilePlugin" version-no="5.5.2.GA_v201402061944"/>
+    <pluginInfo plugin-name="Windows Phone 8 Plug-in" plugin-id="com.kony.windows.WindowsPhone8Plugin" version-no="5.5.2.GA_v201402061935"/>
+    <pluginInfo plugin-name="Windows 8 Plug-in" plugin-id="com.kony.windows.Windows8Plugin" version-no="5.5.2.GA_v201402071746"/>
+    <pluginInfo plugin-name="Android" plugin-id="com.pat.android.Activator" version-no="5.5.2.GA_v201402061602"/>
+    <pluginInfo plugin-name="ThinClient" plugin-id="thinclientplugin.Activator" version-no="5.5.2.GA_v201402062037"/>
+    <pluginInfo plugin-name="Windows Desktop Plug-in" plugin-id="com.kony.windows.WinDesktopPlugin" version-no="5.5.2.GA_v201402061907"/>
+    <pluginInfo plugin-name="SPA" version-no="5.5.2.GA_v201402062014"/>
+    <pluginInfo plugin-name="Desktop Web" version-no="5.5.2.GA_v201402062107"/>
+    <pluginInfo plugin-name="Kony Sync" plugin-id="com.kony.sync.ide.SyncPlugin" version-no="5.5.9.GA_v201402042243_r2"/>
+    <pluginInfo plugin-name="Kony Web Commons" plugin-id="com.kony.web.Activator" version-no="5.5.2.GA_v201402062130"/>
+    <pluginInfo plugin-name="iOS Plugin" plugin-id="iosplugin.Activator" version-no="5.5.2.GA_v201402061828"/>
 </plugins>
