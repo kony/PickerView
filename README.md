@@ -32,4 +32,6 @@ This Application will showcase the following features of Picker view
 
 
 **Supported Kony Visualizer Enterprise Version:** 7.0
+
+Certified4KonyCommunity7.1.1 
  
