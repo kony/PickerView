@@ -16,8 +16,8 @@ This Application will showcase the following features of Picker view
 
 1. Download the project zip file.
 2. Unzip the project to any folder
-3. Launch Kony Visualizer Enterprise version 7.0.
-4. Import the project into Kony Visualizer Enterprise version 7.0.
+3. Launch Kony Visualizer Enterprise version 7.3.
+4. Import the project into Kony Visualizer Enterprise version 7.3 by selecting PickerView.zip .
 5. Build & run the app.
 
 # Supported platforms:
